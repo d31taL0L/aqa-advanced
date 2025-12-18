@@ -1,5 +1,5 @@
-import { Book } from "./Book.js";
-import { Ebook } from "./EBook.js";
+import { Book } from './Book.js';
+import { Ebook } from './EBook.js';
 
 const book1 = new Book('The Hobbit', 'J.R.R. Tolkien', 1937);
 const book2 = new Book('1984', 'George Orwell', 1949);
