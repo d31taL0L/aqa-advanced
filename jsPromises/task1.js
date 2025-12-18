@@ -1,7 +1,7 @@
 function printTextOnTime(text, ms) {
-    setTimeout(() => {
-        console.log(text);
-    }, ms);
+  setTimeout(() => {
+    console.log(text);
+  }, ms);
 }
 
-printTextOnTime("Hello World!", 2000)
+printTextOnTime('Hello World!', 2000);
