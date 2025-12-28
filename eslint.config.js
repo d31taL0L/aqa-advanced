@@ -12,7 +12,7 @@ export default [
         ...globals.jest,
       },
       ecmaVersion: 'latest',
-      sourceType: 'module', // Важно: module, а не commonjs
+      sourceType: 'module',
     },
     rules: {
       'no-unused-vars': 'warn',
@@ -20,7 +20,7 @@ export default [
     },
   },
   {
-    ignores: ['node_modules/', 'coverage/', '.husky/'], // Игнорируем хаски и прочее
+    ignores: ['node_modules/', 'coverage/', '.husky/'],
   },
   eslintConfigPrettier,
 ];
